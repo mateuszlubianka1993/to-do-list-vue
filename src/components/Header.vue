@@ -13,11 +13,7 @@
             <h1 class="h1-responsive"><strong>Vue To Do List App</strong></h1>
             <p class="pb-4">Remember your tasks</p>
 
-            <!--Body-->
-            <form action="#">
-
-              
-            </form>
+            
           </div>
           <!--Naked Form-->
 
@@ -38,4 +34,5 @@ export default {
   .header {
     margin-bottom: 20px;
   }
+  
 </style>
