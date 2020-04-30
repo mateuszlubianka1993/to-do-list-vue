@@ -13,7 +13,9 @@
             <h1 class="h1-responsive"><strong>Vue To Do List App</strong></h1>
             <p class="pb-4">Remember your tasks</p>
 
-            
+            <div class="alert alert-info" role="alert">
+              Click on an <strong>Task Item</strong> to delete it.
+            </div>
           </div>
           <!--Naked Form-->
 
