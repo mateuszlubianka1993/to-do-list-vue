@@ -1,16 +1,29 @@
 <template>
   <div id="app">
     <Header></Header>
+    <TaskList :tasks="tasks"></TaskList>
   </div>
 </template>
 
 <script>
 import Header from './components/Header';
+import TaskList from './components/TaskList';
 
 export default {
+  data: function() {
+        return {
+            tasks: [
+              'Do something',
+              'Do else',
+              'XXX ',
+              ' DDDDDDDDDDDDDDDDDDD'
+            ]
+        }
+    },
   name: 'App',
   components: {
-    Header
+    Header,
+    TaskList
   }
 }
 </script>
