@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <!-- Purple Header -->
-    <div class="edge-header deep-purple"></div>
+    <div class="edge-header blue-gradient"></div>
 
     <!-- Main Container -->
     <div class="container free-bird">

@@ -1,5 +1,5 @@
 <template>
-    <div class="container list-group-flush">
+    <div class="container list-group-flush task-list">
         <Task v-for="(task, index) in tasks" @click.native="removeTask(index)" :key="index">{{task}}</Task>
     </div>
 </template>
@@ -21,5 +21,7 @@ export default {
 </script>
 
 <style scoped>
-
+    .task-list {
+        max-width: 800px;
+    }
 </style>

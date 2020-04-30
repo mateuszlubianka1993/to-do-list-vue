@@ -14,12 +14,7 @@ import AddTask from './components/AddTask';
 export default {
   data: function() {
         return {
-            tasks: [
-              'Do something',
-              'Do else',
-              'XXX ',
-              ' DDDDDDDDDDDDDDDDDDD'
-            ]
+            tasks: []
         }
     },
   methods: {
