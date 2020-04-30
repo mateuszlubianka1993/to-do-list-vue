@@ -1,6 +1,6 @@
 <template>
     <div class="container list-group-flush">
-        <Task v-for="task in tasks" :key="task">{{task}}</Task>
+        <Task v-for="(task, index) in tasks" @click.native="removeTask(index)" :key="index">{{task}}</Task>
     </div>
 </template>
 
@@ -11,6 +11,11 @@ export default {
     props: ['tasks'],
     components: {
         Task
+    },
+    methods: {
+        removeTask(index) {
+            this.$emit('taskRemoved', index);
+        }
     }
 }
 </script>

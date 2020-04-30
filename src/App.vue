@@ -2,7 +2,7 @@
   <div id="app">
     <Header></Header>
     <AddTask @taskAdded="newTask"></AddTask>
-    <TaskList :tasks="tasks"></TaskList>
+    <TaskList @taskRemoved="removeTask" :tasks="tasks"></TaskList>
   </div>
 </template>
 
@@ -25,6 +25,9 @@ export default {
   methods: {
     newTask(task) {
       this.tasks.push(task);
+    },
+    removeTask(index) {
+      this.tasks.splice(index, 1);
     }
   },
   name: 'App',
