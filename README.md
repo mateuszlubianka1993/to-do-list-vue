@@ -11,7 +11,7 @@
     Simple to do list.
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://to-do-list-vue.netlify.app/">View Demo</a>
   </p>
 </p>
 
@@ -87,4 +87,4 @@ npm run lint
 ## Contact
 
 * Project Link: [https://github.com/mateuszlubianka1993/to-do-list-vue](https://github.com/mateuszlubianka1993/to-do-list-vue)
-* Live Demo: []()
+* Live Demo: [https://to-do-list-vue.netlify.app/](https://to-do-list-vue.netlify.app/)
